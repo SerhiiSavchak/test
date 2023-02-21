@@ -9,11 +9,34 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    //
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.4/simple-lightbox.min.css"
+      integrity="sha512-ka1/Z+PCN6JAoOVT50Ujjhq74r3hE0r433lM5X3VlLmxXRRkAJIPSXiZlccGx6Syd56QW+rPoYaLHm5iIPthLg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
     <title>Vanilla App Template</title>
     
+    <script type="module" crossorigin src="/test/assets/index-9aeae2d6.js"></script>
     <link rel="stylesheet" href="/test/assets/index-4c6012d3.css">
   </head>
   <body>
@@ -349,42 +372,50 @@
   <div class="gallery-container container">
     <p class="gallery-text">In Latin, "barba" means "beard"</p>
     <h2 hidden="">Gallery</h2>
-    <ul class="gallery-list list">
+    <ul class="gallery-list list gallery">
       <li class="gallery-item">
-        <img
-          class="gallery-image"
-          src="/test/assets/gallery-1-292f3ab8.jpg"
-          alt="examples photo"
-          width="270"
-          height="360"
-        />
+        <a href="./images/gallery/gallery-1@3x.jpg">
+          <img
+            class="gallery-image"
+            src="/test/assets/gallery-1-292f3ab8.jpg"
+            alt="examples photo"
+            width="270"
+            height="360"
+          />
+        </a>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-image"
-          src="/test/assets/gallery-2-f784e73a.jpg"
-          alt="examples photo"
-          width="270"
-          height="360"
-        />
+        <a href="./images/gallery/gallery-2@3x.jpg">
+          <img
+            class="gallery-image"
+            src="/test/assets/gallery-2-f784e73a.jpg"
+            alt="examples photo"
+            width="270"
+            height="360"
+          />
+        </a>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-image"
-          src="/test/assets/gallery-3-31a63dc3.jpg"
-          alt="examples photo"
-          width="270"
-          height="360"
-        />
+        <a href="./images/gallery/gallery-3@3x.jpg">
+          <img
+            class="gallery-image"
+            src="/test/assets/gallery-3-31a63dc3.jpg"
+            alt="examples photo"
+            width="270"
+            height="360"
+          />
+        </a>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-image"
-          src="/test/assets/gallery-4-5444f6c6.jpg"
-          alt="examples photo"
-          width="270"
-          height="360"
-        />
+        <a href="./images/gallery/gallery-4@3x.jpg">
+          <img
+            class="gallery-image"
+            src="/test/assets/gallery-4-5444f6c6.jpg"
+            alt="examples photo"
+            width="270"
+            height="360"
+          />
+        </a>
       </li>
     </ul>
   </div>
@@ -469,21 +500,50 @@
   </div>
 </div>
 
+      <!-- <section class="section">
+  <div class="container">
+    <div class="slick responsive">
+      <div><img src="./images/gallery/gallery-1.jpg"" alt="" /></div>
+      <div><img src="./images/gallery/gallery-2.jpg"" alt="" /></div>
+      <div><img src="./images/gallery/gallery-3.jpg"" alt="" /></div>
+      <div><img src="./images/gallery/gallery-4.jpg"" alt="" /></div>
+    </div>
+  </div>
+</section> -->
+
     </main>
     <footer class="page-footer">
   <div class="container">
     <p class="footer-text">&copy; Copyright 2020</p>
     <ul class="footer-list list">
       <li class="footer-item">
-        <a class="footer-link link" href target="_blank">Instagram</a>
+        <a class="footer-link link" href="">Instagram</a>
       </li>
       <li class="footer-item">
-        <a class="footer-link link" href target="_blank">Youtube</a>
+        <a class="footer-link link" href="">Youtube</a>
       </li>
     </ul>
   </div>
 </footer>
 
-    <script src="./main.js"></script>
+    
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.4/simple-lightbox.min.js"
+      integrity="sha512-IKDNPsyNuvwDr8D2nIcJVgNFuj3XXdV0jJ5S6E+nYwl5RiLxrd51TnDJDN1lQJrVdF4K849Lizr12ZCZV81MoA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
   </body>
 </html>
