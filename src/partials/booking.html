@@ -1,0 +1,78 @@
+<div class="booking-contacts-wrap">
+  <div class="container">
+    <section class="booking-section" id="booking">
+      <h2 class="booking-title title">Online-booking</h2>
+      <form class="form-booking">
+        <div class="name-tel-container">
+          <label class="label visually-hidden" for="user-name">Name</label>
+          <input
+            class="input"
+            id="user-name"
+            name="name"
+            type="text"
+            placeholder="name*"
+          />
+
+          <label class="label visually-hidden" for="user-tel">Phone</label>
+          <input
+            class="input"
+            id="user-tel"
+            name="tel"
+            type="tel"
+            placeholder="phone*"
+          />
+        </div>
+        <textarea
+          class="textarea"
+          id="user-message"
+          name="message"
+          placeholder="Message"
+        ></textarea>
+        <label class="label visually-hidden" for="user-message">Message</label>
+
+        <button class="booking-button" type="submit">send</button>
+      </form>
+    </section>
+
+    <!-- Contacts -->
+    <section class="contacts-section">
+      <h2 class="contacts-title title">Contacts</h2>
+      <address class="contacts-address">
+        <ul class="contacts-list list">
+          <li class="contacts-item">
+            <svg class="contacts-icon">
+              <use href="./images/sprite/sprite.svg#icon-map"></use>
+            </svg>
+            <a
+              class="contacts-link link"
+              href="https://goo.gl/maps/dYYXKewHgFiKYTAw5"
+              target="_blank"
+              >st. Vasilkivska, 7A <br />
+              Kyiv, 08132
+            </a>
+          </li>
+          <li class="contacts-item phone">
+            <svg class="contacts-icon">
+              <use href="./images/sprite/sprite.svg#icon-phone"></use>
+            </svg>
+            <a class="contacts-link link" href="tel:+380441111111"
+              >+38 044 111 11 11</a
+            >
+          </li>
+          <li class="contacts-item email">
+            <svg class="contacts-icon">
+              <use href="./images/sprite/sprite.svg#icon-mail"></use>
+            </svg>
+            <a
+              class="contacts-link link email"
+              href="mailto:barbershop@email.com"
+              >barbershop@email.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <p class="contacts-top-text">Working hours</p>
+      <p class="contacts-bottom-text">Every day from 9:00 to 22:00</p>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+.gallery-text {
+  margin-bottom: 44px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36px;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.gallery-list {
+  display: flex;
+}
+
+.gallery-item:not(:last-child) {
+  margin-right: 30px;
+}

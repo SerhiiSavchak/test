@@ -1,0 +1,24 @@
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

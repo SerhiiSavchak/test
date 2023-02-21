@@ -1,0 +1,106 @@
+/* Social section */
+
+.hero-social-container {
+  padding-left: 27px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: flex-end;
+  width: 100px;
+  background-color: var(--white-color);
+}
+
+.hero-social-list {
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg) translateY(100%);
+  transform-origin: bottom left;
+}
+
+.hero-social-list::before,
+.about-top-text::before,
+.benefits-top-text::before,
+.team-top-text::before,
+.gallery-text::before,
+.footer-list::before {
+  margin-right: 20px;
+  display: block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: var(--black-color);
+}
+
+.hero-social-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.hero-social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--black-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-social-link:hover,
+.hero-social-link:focus {
+  color: var(--accent-color);
+}
+
+/* Section hero */
+
+.hero-container {
+  display: flex;
+}
+
+.hero-text-container {
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.2)
+    ),
+    url(../images/hero/hero.jpg);
+  width: 1070px;
+  padding: 252px 100px 208px;
+}
+
+.hero-top-text {
+  margin: 0;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-top-text::before,
+.prices-top-text::before,
+.contacts-top-text::before {
+  margin-right: 20px;
+  display: block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: var(--secondary-grey-color);
+}
+
+.hero-title {
+  margin-bottom: 20px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+
+.hero-bottom-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--grey-color);
+  max-width: 360px;
+}

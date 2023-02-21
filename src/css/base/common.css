@@ -1,0 +1,14 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+button {
+  cursor: pointer;
+  min-width: 160px;
+  height: 40px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
