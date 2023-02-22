@@ -8,6 +8,9 @@
   position: fixed;
   align-items: center;
 }
+.header-scroll {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
 
 .header-container {
   display: flex;
