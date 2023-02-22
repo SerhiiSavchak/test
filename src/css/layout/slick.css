@@ -1,2 +1,15 @@
-.slick {
+.responsive.slick-initialized.slick-slider {
+  position: relative;
+  padding: 200px 0;
+}
+.my-slick-prev.slick-arrow {
+  position: absolute;
+  bottom: 150px;
+  left: 350px;
+}
+
+.my-slick-next.slick-arrow {
+  position: absolute;
+  bottom: 150px;
+  right: 350px;
 }
