@@ -1,15 +1,15 @@
 /* Social section */
 
 .hero-social-container {
-  padding-left: 27px;
+  /* padding-left: 27px;
   padding-bottom: 40px;
   display: flex;
-  align-items: flex-end;
-  width: 100px;
-  background-color: var(--white-color);
+  align-items: flex-end; */
+  width: 100%;
+  background-color: var(--accent-color);
 }
 
-.hero-social-list {
+/* .hero-social-list {
   display: flex;
   align-items: center;
   transform: rotate(-90deg) translateY(100%);
@@ -28,7 +28,7 @@
   width: 60px;
   height: 1px;
   background-color: var(--black-color);
-}
+} */
 
 .hero-social-item:not(:last-child) {
   margin-right: 40px;
