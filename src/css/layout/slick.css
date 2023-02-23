@@ -1,3 +1,15 @@
+.hotel {
+  background-color: #121212;
+  padding-top: 192px;
+  padding-bottom: 60px;
+}
+.container-slick {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .responsive.slick-initialized.slick-slider {
   position: relative;
   padding: 200px 0;
@@ -12,4 +24,19 @@
   position: absolute;
   bottom: 150px;
   right: 350px;
+}
+
+.hotel-wrap {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.hotel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.hotel-item {
 }
