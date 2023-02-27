@@ -1,11 +1,11 @@
 body {
   font-family: 'dmsans', sans-serif;
 }
-button {
+/* button {
   cursor: pointer;
   min-width: 160px;
   height: 40px;
-}
+} */
 
 img {
   display: block;

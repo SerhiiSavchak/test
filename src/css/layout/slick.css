@@ -14,16 +14,23 @@
   position: relative;
   padding: 200px 0;
 }
-.my-slick-prev.slick-arrow {
+.my-slick-prev {
   position: absolute;
-  bottom: 150px;
+  bottom: 120px;
   left: 350px;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
 }
 
-.my-slick-next.slick-arrow {
+.my-slick-next {
   position: absolute;
   bottom: 150px;
   right: 350px;
+  background-color: transparent;
+  border: none;
+  width: 7px;
+  height: 14px;
 }
 
 .hotel-wrap {
